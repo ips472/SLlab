@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Assignment3</title>
+
+</head>
+
+<body>
+
+    <!-- Write a js program to add two numbers
+
+    1)Both inputs have to be taken in a form using textbox
+
+    2)The Result will be alerted using Submit button. -->
+
+    <div>
+
+        First Number : <br>
+
+        <input type="text" id="text1">
+
+        <br>
+
+        Second Number : <br>
+
+        <input type="text" id="text2">
+
+        <br>
+
+        <br>
+
+    
+
+       <button onclick="addNumber()">Submit</button>
+
+        
+
+    </div>
+
+    <script>
+
+        function addNumber(){
+
+                var fnum = parseInt(document.getElementById("text1").value);
+
+                var Snum = parseInt(document.getElementById("text2").value);
+
+                var sum = fnum + Snum;
+
+                alert(sum); 
+
+        }
+
+    </script>
+
+    
+
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    <!-- For CSS Style -->
+    <style>
+       /*-----CSS element selector-----*/
+        div{
+        width: fit-content;
+        border: 5px solid black;
+        padding: 5px;
+        margin: auto;
+        text-align: center;
+        }
+ /*-----CSS class selector-----*/
+        .row {
+            display: flex;
+        }
+        .column {
+            flex: 33.33%;
+            padding: 2px;
+            margin: auto;
+            text-align: center;
+        }
+  /*-----CSS id selector-----*/
+        #f {
+            
+            text-align: center;
+            padding: 6px;
+            color: blue;
+            width: 400px;
+            margin: auto;
+            border: 5px solid black;
+        }
+  
+    </style>
+
+
+</head>
+
+<body>
+    <!-- Personal Details -->
+<div>
+      <h1>Personal Details</b><br><br>
+      <h2>Name- Ipsit Singh</h1>
+      <h2>Registration No.- 202000030</h2>
+        
+           <select name="semester">
+              <option name="semester">semester</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+           </select>
+
+</div><br>
+
+<!-- Name and Picture of the favourite sports person -->
+
+<div class="row">
+    <div class="column">
+        <img src="img1.jpg" alt="Snow",height="200px" width="300px"></img>
+        <p>Bajrang Punia</p>
+    </div> 
+    <div class="column">
+        <img src="img2.jpg" alt="Forest",height="300px" width="300px"></img>
+        <p>MS Dhoni</p>
+    </div>
+    <div class="column">
+        <img src="img3.jpg" alt="Mountains", height="200px" width="300px"></img>
+        <p>Vijender Singh</p>
+    </div>
+</div><br>
+
+<!-- Footer to display email id-->
+<footer id="f">
+    <p>Author: Ipsit Singh</p>
+    <p><a href="mailto:ipsit_202000030@smit.smu.edu.in">&#169 ipsit_202000030@smit.smu.edu.in</a></p>
+</footer>
+    
+</body>
+</html>

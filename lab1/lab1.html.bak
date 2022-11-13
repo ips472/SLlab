@@ -1,0 +1,70 @@
+<!Doctype html>
+<html>
+<center>
+<head>
+  <title>Scripting Lab 1    </title>
+</head>
+<body>
+  <!-- Input Field for name and registration number -->
+  <form>
+    First name: <input type="text" name="first_name" /><br><br>
+	Last name: <input type="text" name="last_name" /><br><br>
+    Registration no. <input type="text" name="registration_no" /><br>
+  </form><br><br>
+   
+  <!-- Display your favourite quote -->
+  <b>Quote of the day...</b><br>
+  <p><b>“The secret of getting ahead is getting started.”</b><p>
+  
+  <!-- Picture and name of favourite personality -->
+  <img src= "leo.jpg" alt="Leonardo Dicaprio" height="300px" width="400px"><br><b>Leonardo Dicaprio</b></img><br><br>
+  
+  <!-- your current semester using drop down menu -->
+  <select name="semester">
+   <option name="semester">semester</option>
+   <option value="1">1</option>
+   <option value="2">2</option>
+   <option value="3">3</option>
+   <option value="4">4</option>
+   <option value="5">5</option>
+   <option value="6">6</option>
+   <option value="7">7</option>
+   <option value="8">8</option>
+  </select><br><br>
+  
+  <!-- your food preference using radio buttons -->
+  
+  <form>
+  Select your food preference<br>
+    <input type="radio" name="Food"value="Veg" >Veg<br>
+	<input type="radio" name="Food"value="Non-Veg" >Non-Veg<br>
+	<input type="radio" name="Food"value="Both" >Both<br>
+  </form><br><br>
+  
+  <!-- Your hobbies using checkbox -->
+  <form>
+  Select your hobbies<br>
+    <input type="checkbox"name="Travelling"value="travelling">travelling<br>
+    <input type="checkbox"name="Playing"value="playing">playing<br>
+	<input type="checkbox"name="marketing"value="marketing">marketing<br>
+    <input type="checkbox"name="swimming"value="swimming">swimming<br>  
+  </form><br><br>
+  
+  <!-- Feedback Field -->
+  <form>
+    Feedback:<br>
+	<textarea rows="6"cols="50"name="description">
+ Enter feedback here...
+	</textarea>
+	
+	<!-- Submit button -->
+  </form><br>
+  
+  <!-- Submit button -->
+  
+  <button type="button"> submit!</button><br><br>
+  
+</body>
+</center>
+</html>
+	
