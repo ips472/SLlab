@@ -1,0 +1,61 @@
+<!Doctype html>
+<html>
+    <head>
+    <script>
+        function Alert(){
+            alert("Name- Ipsit Singh\nRegistration NO.-202000030");
+        }
+        function largePic(x){
+            x.style.width="640px";
+            x.style.height="360px";
+        }
+        function normPic(x){
+            x.style.width="320px";
+            x.style.height="180px";
+        }
+        function fontGrow(y){
+            y.style.fontsize="40px";
+        }
+        function fontnorm(y){
+            y.style.fontsize="100%";
+        }
+    </script>
+
+    <style>
+        #box{
+            width:250px;
+            border:4px solid blue;
+            padding:2%;
+            margin:6px;
+        }
+        p{
+            font-size:large;
+            color:#f42;
+        }
+    </style>
+    </head>
+
+    <center>
+        <body>
+            <div>
+                <p>Click button below to see name and registration number</p>
+                <button onclick="Alert()">press here</button><br><br>
+            </div>
+            <div>
+                <img onmouseover="largePic(this)" onmouseout="normPic(this)" src="image.jpg" width="320px" height="180px"><br><br>
+
+            </div>
+            <div onmouseover="fontGrow(this)" onmouseout="fontnorm(this)" >MSD
+
+            </div>
+            <div id="box">
+                <footer>
+                    <p>
+                        <a href="ipsit_202000030@smit.smu.edu.in">ipsit_202000030@smit.smu.edu.in</a></p>
+                    </p>
+                </footer>
+            </div>
+        </body>
+    </center>
+
+</html>
